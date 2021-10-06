@@ -115,8 +115,8 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("♦️ Channel ♦️", "https://t.me/HC_Movie"),
-                InlineKeyboardButton("♦️ Group ♦️", "https://t.me/joinchat/WeBSiUKs5NY0YmE1")
+                InlineKeyboardButton("♦️ Channel ♦️", 'https://t.me/HC_Movie'),
+                InlineKeyboardButton("♦️ Group ♦️",'https://t.me/joinchat/WeBSiUKs5NY0YmE1')
                 ]]
             )
         )
